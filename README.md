@@ -1,4 +1,4 @@
-# internshipproject1
+# Internshipproject1
 my internship project : ETL Pipeline [Python]
 
 1.The project is to collect some weather details from the open weather api 
