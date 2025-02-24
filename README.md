@@ -11,7 +11,12 @@ Data Processing with Apache Spark: Spark jobs are employed to perform complex da
 
 AWS S3: Processed data is stored persistently in S3 Bucket, providing a fully managed, cloud-based  solution.
 
-Technologies Used: Python: For data extraction, transformation, and cleaning. Apache Kafka: For real-time data streaming and ingestion. Apache Spark: For distributed data processing and analysis. S3: For storing processed data in AWS.
+Technologies Used:<br>
+   Python: For data extraction, transformation, and cleaning. <br>
+   Apache Kafka: For real-time data streaming and ingestion. <br>
+   Apache Spark: For distributed data processing and analysis. <br>
+   S3: For storing processed data in AWS.<br>
+   Snowflake:used as a warehouse. <br>
 
 
 1.The project is to collect some weather details from the open weather api 
