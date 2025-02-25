@@ -73,12 +73,6 @@ if __name__ == "__main__":
             col("windSpeed").isNotNull()
         )
 
-    # Output parsed data to console
-    # query = parsed_df.writeStream \
-    #     .outputMode("append") \
-    #     .format("console") \
-    #     .option("truncate", "false") \
-    #     .start()
     query = parsed_df.writeStream \
         .format("json") \
         .option("path", "/home/amitha/PycharmProjects/bigdataproject/output") \
