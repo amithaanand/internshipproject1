@@ -7,8 +7,8 @@ from string import Template
 
 
 session = boto3.Session(
-    aws_access_key_id='AKIA2NK3YLUJZ2PEE4T4',
-    aws_secret_access_key='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',
+    aws_access_key_id='********',
+    aws_secret_access_key='*******',
 )
 
 
